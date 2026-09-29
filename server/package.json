@@ -1,0 +1,27 @@
+{
+  "name": "resume-analyser-server",
+  "version": "1.0.0",
+  "description": "Express server for uploading and parsing PDF resumes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "pdf",
+    "resume",
+    "upload"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.18.0",
+    "multer": "^2.0.2",
+    "pdf-parse": "^2.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
